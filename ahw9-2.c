@@ -3,7 +3,7 @@
 int main(void){
     int a[5];
     int i, n=5;
-    printf("Input array:\n");
+    printf("sorted array:\n"); //『printf("Input array:\n");』でない
     for (i=0; i<5; i++){
         scanf("%d", &a[i]);
     }
@@ -20,5 +20,3 @@ int main(void){
     printf("\n");
     return 0;
 }
-
-
